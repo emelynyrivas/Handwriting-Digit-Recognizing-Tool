@@ -6,6 +6,7 @@ The model is also tested with my **own sample handwritten images** to validate p
 ---
 
 ⚠️ Note:
+- You must have a Google account in order to use this project.
 - This project is pre-trained, and you will need access to the finetuned model.
 - There is a small dataset that I created to help train this modle. You will need access to this folder as well.
 
