@@ -18,7 +18,7 @@ The model is also tested with my **own sample handwritten images** to validate p
 
 Please click that link here for the shared folder in google drive: https://drive.google.com/drive/folders/1jNUN0KzmVFEYNcywKZ_wAZVgbgOvbOLd?usp=sharing
 
-The folder's path shoudl be:  /content/drive/MyDrive/Drive files for digit handwriting tool
+The folder's path should be:  /content/drive/MyDrive/Drive files for digit handwriting tool
 
 *The order is very important*
 
