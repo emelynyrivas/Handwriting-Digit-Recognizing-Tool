@@ -28,10 +28,13 @@ The model is also tested with my **own sample handwritten images** to validate p
 - The folder will then download as a zip file. Unzip it and add the folder to your Google Drive.
 - The folder's path should be:  /content/drive/MyDrive/Drive files for digit handwriting tool
 
-    **The order is very important!**
+    **❗️The order is very important!**
 
 - Click on "MyDrive" on the left side tab to make sure the folder is in there:
+  
   <img width="1239" height="489" alt="Screen Shot 2025-09-20 at 3 41 24 PM" src="https://github.com/user-attachments/assets/231a66a8-85b5-4217-b7c0-04d68f28a4b4" />
+
+
 
 
 ### 1. Open the Notebook in Google Colab
@@ -80,6 +83,7 @@ Make sure the following paths match the location of your files in Drive:
   - Perform predictions on both MNIST test data and our sample data
   - Display visualizations of results
 
+---
 
 ### 5. Use the user friendly application
 
