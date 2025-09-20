@@ -1,2 +1,39 @@
-# Handwriting-Digit-Recognizing-Tool
-This is a handwritten digit recognizing tool that uses AI &amp; machine learning that can read any legible numbers wtitten by hand. This receives an accurate rate of 96 - 99% when followed our guideline. 
+# ✨ Handwritten Digit Recognition Project
+This is a handwritten digit recognizing tool that uses a machine learning application that recognizes handwritten digits using a **Convolutional Neural Network (CNN)** trained on the MNIST dataset.  
+
+The model is also tested with my **own sample handwritten images** to validate performance outside the training set.  
+
+---
+
+⚠️ Note:
+- This project is pre-trained, and you will need access to the finetuned model.
+- There is a small dataset that I created to help train this modle. You will need access to this folder as well.
+
+**Both of these files are stored in a shared Google Drive. Instructions for accessing them are below.**  
+
+
+---
+
+##  How to Run This Project
+
+Please click that link here for the shared folder in google drive: https://drive.google.com/drive/folders/1jNUN0KzmVFEYNcywKZ_wAZVgbgOvbOLd?usp=sharing
+
+The folder's path shoudl be:  /content/drive/MyDrive/Drive files for digit handwriting tool
+
+*The order is very important*
+
+### 1. Open the Notebook in Google Colab
+Click the badge below to open the notebook directly in Colab:
+
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emelynyrivas/Handwriting-Digit-Recognizing-Tool/blob/main/notebook.ipynb)
+
+
+
+---
+
+### 2. Mount Google Drive
+In the first code cell of the notebook, run:
+```python
+from google.colab import drive
+drive.mount('/content/drive')
