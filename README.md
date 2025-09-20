@@ -26,9 +26,7 @@ The folder's path shoudl be:  /content/drive/MyDrive/Drive files for digit handw
 Click the badge below to open the notebook directly in Colab:
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emelynyrivas/Handwriting-Digit-Recognizing-Tool/blob/main/notebook.ipynb)
-
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emelynyrivas/Handwriting-Digit-Recognizing-Tool/blob/main/Handwriting_Digit_Recognizing_Tool.ipynb)
 
 ---
 
@@ -37,3 +35,25 @@ In the first code cell of the notebook, run:
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
+```
+---
+
+### 3. Update file paths
+Make sure the following paths match the location of your files in Drive:
+
+  - Path of finetuned model = "/content/drive/MyDrive/Drive files for digit handwriting tool/mnist_digit_cnn_finetuned.h5"
+
+  - Path of sample data folder = "/content/drive/MyDrive/Drive files for digit handwriting tool/handwriting_samples"
+
+---
+
+### 4. Run all the cells
+
+  Select Runtime → Run all in Colab.
+
+  The notebook will:
+  - Load the trained CNN model
+  - Preprocess and clean the dataset
+  - Perform predictions on both MNIST test data and our sample data
+  - Display visualizations of results
+
